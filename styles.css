@@ -231,7 +231,7 @@ footer {
       rgba(77, 150, 169, 0.8),
       rgba(77, 150, 169, 0.8)
     ),
-    url("/assets/desktop/image-footer.jpg");
+    url("./assets/desktop/image-footer.jpg");
   background-size: cover;
   background-position: center;
   color: white;
