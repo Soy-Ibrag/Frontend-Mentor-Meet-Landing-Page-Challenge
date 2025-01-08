@@ -19,6 +19,7 @@ body {
   line-height: 1.5;
   /* 4. Improve text rendering */
   -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
 }
 
 /* 5. Improve media defaults */
@@ -141,6 +142,20 @@ main {
   border: none;
   border-radius: 2.9em;
   padding: 1em 2.5em 1em 2.5em;
+  font-weight: 700;
+  font-family: "Red Hat Display";
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  line-height: 150%;
+}
+
+.button-blue span {
+  color: #8fe3f9;
+}
+
+.button-blue:hover {
+  background-color: #3b7f8f;
 }
 
 .button-purple {
@@ -149,6 +164,16 @@ main {
   color: #fafafa;
   border: none;
   border-radius: 2.9em;
+  font-weight: 700;
+  font-family: "Red Hat Display";
+  font-size: 1.6rem;
+  cursor: pointer;
+  line-height: 150%;
+  transition: all 0.3s;
+}
+
+.button-purple:hover {
+  background-color: #6d479b;
 }
 
 .section-1 {
@@ -167,7 +192,12 @@ main {
 
 .img-square {
   width: 256px;
+  transition: all 0.3s;
   border-radius: 5px;
+}
+
+.img-square:hover {
+  transform: scale(1.05);
 }
 
 .line {
@@ -239,6 +269,7 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 8em 11.2em;
+  margin-top: auto;
 }
 
 .section-2 {
@@ -273,10 +304,14 @@ footer p {
   border-radius: 2.9em;
   padding: 1em 2.5em;
   font-family: "Red Hat Display", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 700;
   cursor: pointer;
   transition: background-color 0.3s;
+}
+
+.button-footer span {
+  color: #d9b8ff;
 }
 
 .button-footer:hover {
